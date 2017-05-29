@@ -15,7 +15,6 @@ public class ThetaWifiStreaming : MonoBehaviour {
 	private string executeCmd = "/osc/commands/execute";
 	public JsonData outputJson = new JsonData();
 
-	// Use this for initialization
 	IEnumerator Start () {
 		string jsonStr;
 
